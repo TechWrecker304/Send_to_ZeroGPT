@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "name": "Send To ZeroGPT",
+  "version": "1.0",
+  "description": "Highlight text and open ZeroGPT",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "storage",
+    "activeTab",
+    "https://www.zerogpt.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "zgot1.png",
+      "48": "zgot2.png",
+      "128": "zgot3.png"
+    }
+  }
+}
