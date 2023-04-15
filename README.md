@@ -12,4 +12,5 @@ This Chrome extension allows you to highlight text on a webpage and send it to Z
 4. Enable "Developer mode" by toggling the switch in the top right corner.
 5. Click on "Load unpacked" and select the folder containing the extension files you downloaded in step 1.
 6. The extension should now be installed and ready to use.
-Note: This should also work for Edge as well by following the above steps and doing steps 12-13 in the Manage Extensions section of the browser. 
+7. 
+Note: This should also work for Edge as well by following the above steps and doing steps 4-5 in the Manage Extensions section of the browser. 
