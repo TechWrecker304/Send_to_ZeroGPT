@@ -6,7 +6,7 @@ This Chrome extension allows you to highlight text on a webpage and send it to Z
 
 ## Installation
 
-1. Download or clone this repository to your local machine.  
+1. Download or clone this repository to your local machine.  Make sure you download all files in their raw format.  If you are new to Github the easiest way to do it is to select the CODE dropdown on the right hand side and then select download ZIP.   
 2. NOTE: if you are not a GitHub user and familiar with the lingo and are a Windows user you can just download the files and put the contents of this repository in a folder and name it SendToZeroGPT
 3. Open Google Chrome and navigate to `chrome://extensions/`.  
 4. Enable "Developer mode" by toggling the switch in the top right corner.
